@@ -22,7 +22,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @ExtendWith(PactConsumerTestExt.class)
 @PactTestFor(providerName = "DateProvider", port = "1234")
-public class PactAgeConsumerNewTest {
+public class PactAgeConsumerTest {
 
     @BeforeEach
     public void setup(MockServer mockServer) {

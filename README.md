@@ -1,3 +1,3 @@
 ### Reference
 
-https://github.com/SrinivasanTarget/ContractTestingBoilerplate
+Follow README.md from https://github.com/SrinivasanTarget/ContractTestingBoilerplate for execution.

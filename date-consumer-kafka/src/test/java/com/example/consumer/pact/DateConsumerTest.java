@@ -20,7 +20,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @ExtendWith(PactConsumerTestExt.class)
 @PactTestFor(providerName = "DateProviderKafka", providerType = ProviderType.ASYNCH)
-public class DateConsumerNewTest {
+public class DateConsumerTest {
 
     @Pact(consumer = "DateConsumerKafka")
     public MessagePact validDateMessageFromKafkaProvider(MessagePactBuilder builder) {

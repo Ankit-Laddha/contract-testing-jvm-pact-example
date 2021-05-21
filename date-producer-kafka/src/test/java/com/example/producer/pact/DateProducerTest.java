@@ -7,7 +7,6 @@ import au.com.dius.pact.provider.junit5.PactVerificationInvocationContextProvide
 import au.com.dius.pact.provider.junitsupport.Consumer;
 import au.com.dius.pact.provider.junitsupport.Provider;
 import au.com.dius.pact.provider.junitsupport.loader.PactBroker;
-import au.com.dius.pact.provider.junitsupport.loader.PactFolder;
 import au.com.dius.pact.provider.junitsupport.target.TestTarget;
 import com.example.producer.Producer;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -23,7 +22,6 @@ import java.time.LocalDate;
 @Consumer("DateConsumerKafka")
 //@PactFolder("../date-consumer-kafka/target/pacts")
 @PactBroker(url = "http://localhost:8282")
-//@PactBroker(host = "localhost", port = "8282")
 public class DateProducerTest {
 
     @TestTarget // Annotation denotes Target that will be used for tests
